@@ -20,6 +20,7 @@ A solução implementada conta com os seguintes módulos:
  - **Hospedagem** - local na Internet onde as páginas são mantidas e acessadas pelo navegador. 
 
 Hospedagem
+
 O site utiliza a plataforma do Heroku como ambiente de hospedagem do site do projeto. O site é mantido no ambiente da URL: 
 
 https://link_exemplo.herokuapp.com 
