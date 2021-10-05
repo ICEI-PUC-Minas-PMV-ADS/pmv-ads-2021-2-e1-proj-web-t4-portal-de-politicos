@@ -29,6 +29,8 @@ Gestão de código fonte:
 Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature. Uma explicação rápida sobre este processo é apresentada no vídeo "The gitflow workflow - in less than 5 mins".
 
 
+![image](https://user-images.githubusercontent.com/90804896/135941881-1ff7abcd-41ae-4bdf-80ed-195b657b7fd1.png)
+
 
 
 
@@ -67,6 +69,7 @@ Locked: Quando alguma coisa impede a conclusão da tarefa, ela é movida para es
 
 O quadro kanban do grupo no Trello está disponível através da URL https://trello.com/b/LupglzUz/tiaw-template e é apresentado, no estado atual, na Figura X. A definição desta estrutura se baseou na proposta feita por Littlefield (2016).
 
+![image](https://user-images.githubusercontent.com/90804896/135941902-1cee61c1-7b0f-445b-a12c-518d58c7beb4.png)
 
 
 
