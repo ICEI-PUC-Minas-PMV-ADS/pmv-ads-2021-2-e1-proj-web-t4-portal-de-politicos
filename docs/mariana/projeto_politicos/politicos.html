@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Política</title>
+    <link rel="stylesheet" href="css/politicos.css">
+    
+
+</head>
+<body>
+<header>
+
+    <img src="img/arroba.png" alt="logo">
+
+    <ul>
+        <li><a href="#" class="linkmenu">Deveres de um politico</a></li>
+        <li><a href="#" class="linkmenu">Quem somos</a></li>
+        <li><a href="#" class="linkmenu">O que fazemos</a></li>
+    </ul>
+    <button>Entrar</button>
+</header>
+
+<div class="buscar">
+    <span class="span">Voce Está em: <a href="#" class="linkmenu">Home</a> > <a href="#" class="linkmenu">Políticos</a></span>
+    <div class="buscar2">
+        <input type="text" name="buscar" placeholder="Nova Pesquisa" id="input-busca" class="input-busca" onfocus= "focar()">
+        <div class="pesquisa">
+            <ul id="ul-busca" class="ul-busca"></ul>
+        </div>
+    </div>  
+    
+</div>
+
+<main>
+    <div id="perfil-politico" >
+
+        <div id="resumo-perfil">
+
+            <img id="imagem-politico" src="IMG/STICH.jpg" width="110" height="110"/>
+
+            <div style="margin-left: 10px;">
+
+                <span id="nome-politico">
+                    Stich Rodrigues Junior 
+                </span>
+                <br> 
+                <span class="fonte-perfil-politico">
+                    Deputado Federal - PT - SP
+                </span>
+                <br>
+                <span class="fonte-perfil-politico">
+                   Titular em exercício 2019 - 2023 
+                </span>
+            </div>
+        </div>
+        <div id="detalhes-candidato"> 
+            <b> <br> <br> Nome civil:</b> Stich Rodrigues Junior  <br> 
+            <b>Data de nascimento:</b> 06/02/1989 <br>
+            <b>E-mail:</b> stich.deputado@gmail.com <br>
+            <b>Telefone:</b> (11) 99999-9999<br>
+            <b>Endereço:</b> Rua das orações - 520 - Santo André - SP 
+        </div>
+    </div>
+    <div id="registro-de-presencas" >
+        <div id="titulo-registro-de-presencas">
+            <span>
+                Atualizações no plenário e comissões - <span id="ano-plenario"> 2021 </span>
+            </span>
+        </div>
+    </div>
+    <div id="dados-plenario">
+        <div id="resumo-das-informações" >
+            <div id="resumo-esquerda" > 
+                <span id="titulo-propostas">
+                    Propostas legislativas
+                </span> 
+                <div id="propostas">
+                    <span id="nome-autoria">
+                        de sua autoria:
+                    </span>
+                    <span id="quantidade-autoria">
+                        58
+                    </span>
+                    <span id="nome-relatadas">
+                        relatadas
+                    </span>
+                    <span id="quantidade-relatadas">
+                        03
+                    </span>
+                </div>
+            </div>
+            <div id="resumo-direita" >
+                <span id="titulo-votacoes">
+                    Votações nominais
+                </span> 
+                <div id="votacoes">
+                   <span id="nome-votacoes">
+                      Em plenário
+                   </span> 
+                   <span id="quantidade-votacoes">
+                       510
+                   </span>
+                </div>
+                <span id="titulo-discurso"> 
+                    Discursos
+                </span>
+                <div id="discurso">
+                    <span id="nome-discurso">
+                        Em plenário 
+                    </span>
+                    <span id="quantidade-discursos">
+                        22
+                    </span>
+                </div>
+            </div>   
+        </div>
+        <div id="presencas">
+            <table id="tabela-presencas" cellspacing="0">
+               <thead>
+                    <tr>
+                        <td> </td>
+                        <td> em Plenário </td>
+                        <td> em comissões </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="td-superior-esquerdo"> Presença</td>
+                        <td style="border-top: 2px solid #9B51E0"> 95 dias </td>
+                        <td id="td-superior-direito"> 29 reuniões</td>
+                    </tr>
+                    <tr>
+                        <td style="border-left: 2px solid #9B51E0"> Ausências justificadas</td>
+                        <td> 3 dias </td>
+                        <td style="border-right: 2px solid #9B51E0"> 2 reuniões </td>
+                    </tr>
+                    <tr>
+                        <td id="td-inferior-esquerdo"> Ausênicas não justificadas</td>
+                        <td style="border-bottom: 2px solid #9B51E0"> 0 dias</td>
+                        <td id="td-inferior-direito"> 7 reuniões</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+        
+    
+</main>
+    
+<script src="js/politicos.js"></script>
+</body>
+</html>
