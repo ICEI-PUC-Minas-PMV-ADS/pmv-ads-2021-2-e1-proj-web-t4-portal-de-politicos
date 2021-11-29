@@ -1,0 +1,350 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: #828282;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ----------------- HEADER -------------*/
+header {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    padding: 20px;
+    list-style: none;
+    display: inline;
+}
+
+.linkmenu {
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.linkmenu:hover {
+    color: black;
+}
+
+header button {
+    margin-left: 37%;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 130px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid #9b51e0;
+    color: #9B51E0;
+    font-weight: bolder; 
+}
+
+header button:hover {
+    background-color: #ab73e015;
+}
+
+/*---------------CAMPO DE BUSCA---------------------*/
+
+.buscar {
+	border-top: 1px solid #E5E5E5;
+	width: 1200px;
+	margin: 20px auto;
+    padding: 5px 0;
+}
+
+.span {
+    margin-top: auto;
+    font-size: 0.6em;
+
+}
+
+.buscar2 {
+    display: block;
+    float: right;
+}
+
+.buscar2 input{
+    background-image: url(../img/lupa-busca2.jpg);
+    background-position: 7px 4px;
+    background-repeat: no-repeat;
+    border: 2px solid #9B51E0;
+    border-radius: 50px;
+    float: right;
+    width: 290px;
+    height: 45px;
+    padding:  0 5px;
+    outline: none;
+    text-align: center;*/
+}
+
+.ul-busca {
+    list-style-type: none;
+    margin: 50px 0; 
+    position: absolute;
+    display: inline-block; 
+    
+}
+
+.ul-busca li {
+    
+    font-size: 0.8em;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #9B51E0;
+    border-radius: 50px;
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+}
+
+.ul-busca li:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+/*---------------PERFIL CANDIDATO --------------*/
+.bordadev{
+	border: 1px solid #000;
+}
+
+#perfil-politico{
+	width: 1200px;
+    height: 150px;
+    border-bottom: 1px solid #E5E5E5;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resumo-perfil {
+	width: 500px;
+    height: 150px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+#resumo-perfil img{
+	border-radius: 50px;
+}
+
+#nome-politico {
+	font-size: 26px;
+	color: #9B51E0;
+}
+
+.fonte-perfil-politico {
+	color: #000;
+	font-weight: bolder;
+}
+
+#detalhes-candidato {
+	width: 500px;
+    height: 150px;
+    float: left;
+    margin-left: 50px;
+    color: #000;
+}
+
+/*--------------------REGISTROS DE PRESENÇAS ------------------*/
+
+#registro-de-presencas {
+	width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#titulo-registro-de-presencas{
+	color: #000;
+	font-size: 20px;
+}
+
+#ano-plenario{
+	color: #9B51E0;
+	font-weight: bolder;
+
+}
+
+#resumo-das-informações{
+	width: 500px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+
+}
+
+#resumo-esquerda {
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+#resumo-direita {
+	width: 260px;
+
+}
+
+#propostas {
+	border:2px solid #9B51E0; 
+	width: 150px;
+	height: 170px;
+	border-radius:20px;
+	margin-top: 8px;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+#titulo-propostas {
+	color: #000;
+	font-weight: bolder;
+
+}
+
+#nome-autoria{
+	margin-top: 10px;
+}
+
+#quantidade-autoria {
+	font-weight: bolder;
+	color: #9B51E0;
+	font-size: 26px;
+
+}
+
+#nome-relatadas {
+	border-top: 1px solid #E5E5E5;
+	width: 120px;
+	text-align: center;
+	margin-top:15px;
+	padding-top: 20px;
+}
+
+#quantidade-relatadas {
+	font-weight: bolder;
+	color: #9B51E0;
+	font-size: 26px;
+}
+
+#titulo-votacoes {
+	color: #000;
+	font-weight: bolder;
+	margin-left: 14px;
+}
+
+#votacoes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:2px solid #9B51E0;
+	width: 150px;
+	height: 70px;
+	margin-top: 8px;
+	margin-left: 10px;
+	border-radius:20px;
+}
+
+#nome-votacoes {
+	margin-top: 10px;
+}
+
+#quantidade-votacoes{
+	font-weight: bolder;
+	color: #9B51E0;
+	font-size: 20px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#titulo-discurso {
+	color: #000;
+	font-weight: bolder;
+	margin-left: 42px;
+	margin-top: 80px;
+}
+
+#discurso {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border:2px solid #9B51E0;
+	width: 150px;
+	height: 70px;
+	margin-top: 8px;
+	margin-left: 10px;
+	border-radius:20px;
+}
+
+#quantidade-discursos {
+	font-weight: bolder;
+	color: #9B51E0;
+	font-size: 20px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#nome-discurso {
+	margin-top: 8px;
+}
+
+#dados-plenario{
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+#presencas {
+	height: 250px;
+	margin-top: 20px;
+}
+
+#tabela-presencas{
+	width: 600px;
+	margin-left: 40px;
+
+}
+
+#tabela-presencas td{
+	padding-bottom: 12px;
+	padding-top: 12px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#td-superior-esquerdo {
+	border-top: 2px solid #9B51E0;
+	border-left: 2px solid #9B51E0;
+	border-top-left-radius: 20px;
+
+}
+
+#td-inferior-esquerdo {
+	border-bottom: 2px solid #9B51E0;
+	border-left: 2px solid #9B51E0;
+	border-bottom-left-radius: 20px;
+
+}
+
+#td-inferior-direito {
+	border-bottom: 2px solid #9B51E0;
+	border-right: 2px solid #9B51E0;
+	border-bottom-right-radius: 20px;
+}
+
+#td-superior-direito {
+	border-top: 2px solid #9B51E0;
+	border-right: 2px solid #9B51E0;
+	border-top-right-radius: 20px;
+}
+
+
+
+
